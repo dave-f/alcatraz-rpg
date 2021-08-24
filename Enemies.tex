@@ -1,0 +1,228 @@
+\author{Dave Footitt}
+\title{Enemies}
+\date{02/04/2018}
+\documentclass[12pt,a4paper]{article}
+\usepackage{palatino,url,color,colortbl}
+\pagenumbering{gobble}
+\definecolor{lightgray}{gray}{0.9}
+
+%
+% Enemies and their stats. Rog's D&D enemy count:
+%
+% Potential on the routes, skeletons in one entrance, lizardmen in another, raoming gelatinous cubes, random thieves to pop up when needed,
+% and the susurrus beast at end, plus final undead outbreak
+%
+
+\begin{document}
+%\begin{center}
+%\section*{Enemies}
+%\line(1,0){200}
+%\end{center}
+%\vspace{1em}
+\subsection*{Red bats}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR & CON & SIZ & INT & POW & DEX & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+
+5       & 9       & 5 & 1     & 7       & 18       & \\
+25/12/5 & 45/22/9 & - & 5/2/1 & 35/17/7 & 90/45/18 & \\ 
+
+\rowcolor{lightgray}
+5       & 7       & 4 & 1     & 5       & 17       & \\
+\rowcolor{lightgray}
+25/12/5 & 35/17/7 & - & 5/2/1 & 25/12/5 & 85/42/17 & \\ 
+
+5       & 5       & 4 & 1     & 7       & 17       & \\
+25/12/5 & 25/12/5 & - & 5/2/1 & 35/17/7 & 85/42/17 & \\
+
+\rowcolor{lightgray}
+4       & 8       & 2 & 1     & 9       & 16       & \\
+\rowcolor{lightgray}
+20/10/4 & 40/20/8 & - & 5/2/1 & 45/22/9 & 80/40/16 & \\
+
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 1 (Natural armour)\\
+HP: 2\\
+Skills: Echo-Locate 85\% (42/17)\\
+Attacks: Bite 40\% (20/8); \textbf{1d2}
+%On a successful bite, the bat will attach on \textbf{1d2}.  When attached, the bat doesn't attack but the target loses 1 HP due to blood loss.
+\subsection*{Headless beast}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR & CON & SIZ & INT & POW & DEX & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+9       & 12       & 15 & 1     & 1     & 9       & \\
+45/22/9 & 60/30/12 & -  & 5/2/1 & 5/2/1 & 45/22/9 & \\ 
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 1 (Hardened skin)\\
+HP: 10\\
+Skills: Grapple 50\% (25/10), Brawl 40\% (20/8); \textbf{1d3}\\
+Attacks: Charge 30\% (15/6); \textbf{1d4}
+\subsection*{Wandering infected rats}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR & CON & SIZ & INT & POW & DEX & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+3       & 12       & 2  & 1     & 1     & 13       & \\
+15/7/3  & 60/30/12 & -  & 5/2/1 & 5/2/1 & 65/32/13 & \\ 
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 0 (None)\\
+HP: 2\\
+Skills: N/A\\
+Attacks: Bite 30\% (15/6); \textbf{1d2}, luck roll to avoid infection for \textbf{1d3} rounds, losing 1 HP each round
+\newpage
+\subsection*{Corridor zombies}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR      & CON       & SIZ & INT    & POW    & DEX       & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+
+12       & 13       & 14  & 1     & 1     & 7 &\\
+60/30/12 & 65/32/13 & -   & 5/2/1 & 5/2/1 & 35/17/7 &\\
+
+\rowcolor{lightgray}
+10       & 14       & 16 & 1     & 1     & 6 &\\
+\rowcolor{lightgray}
+50/25/10 & 70/35/14 & -  & 5/2/1 & 5/2/1 & 30/15/6 &\\
+
+9       & 12       & 16 & 1     & 1     & 5 & \\
+45/22/9 & 60/30/12 & -  & 5/2/1 & 5/2/1 & 25/12/5 &\\
+
+\rowcolor{lightgray}
+14       & 10       & 16  & 1     & 1     & 5 &\\
+\rowcolor{lightgray}
+70/35/14 & 50/25/10 & -   & 5/2/1 & 5/2/1 & 25/12/5 &\\
+
+8        & 5        & 13  & 1     & 1     & 5 &\\
+40/20/8  & 25/12/5  & -   & 5/2/1 & 5/2/1 & 35/17/7 &\\
+
+\rowcolor{lightgray}
+8       & 13       & 12  & 1     & 1     & 3 &\\
+\rowcolor{lightgray}
+40/20/8 & 65/32/13 & -   & 5/2/1 & 5/2/1 & 15/7/3 &\\
+\hline
+\end{tabular}
+\vspace{0.2cm}
+%perhaps 4 each side, 80\% chance of waking or something?
+\\
+AC: 1 (Clothing)\\
+HP: 12\\
+Skills: Spot 5\% (2/1), Listen 10\% (5/2)\\
+Attacks: Claw 30\% (15/6); \textbf{1d4},  Bite 30\% (15/6); \textbf{1d4}
+\subsection*{Corridor apes}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR      & CON       & SIZ & INT    & POW    & DEX       & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+
+%(((str . 10) (con . 14) (siz . 15) (int . 4) (pow . 2) (dex . 6)) ((Effort (50 25 10)) (Stamina (70 35 14)) (Damage Bonus -) (Idea (20 10 4)) (Luck (10 5 2)) (Agility (30 15 6))))
+10       & 14       & 15   & 4       & 2       & 6 &\\
+50/25/10 & 70/35/14 & -    & 20/10/4 & 10/5/2  & 30/15/6 &\\
+
+%(((str . 13) (con . 13) (siz . 11) (int . 4) (pow . 6) (dex . 15)) ((Effort (65 32 13)) (Stamina (65 32 13)) (Damage Bonus -) (Idea (20 10 4)) (Luck (30 15 6)) (Agility (75 37 15))))
+\rowcolor{lightgray}
+13       & 13       & 11 & 4       & 6       & 15 &\\
+\rowcolor{lightgray}
+65/32/13 & 65/32/13 & -  & 20/10/4 & 30/15/6 & 75/37/15 &\\
+
+%(((str . 9) (con . 9) (siz . 14) (int . 3) (pow . 4) (dex . 6)) ((Effort (45 22 9)) (Stamina (45 22 9)) (Damage Bonus -) (Idea (15 7 3)) (Luck (20 10 4)) (Agility (30 15 6))))
+9       & 9        & 14 & 3      & 4       & 6 & \\
+45/22/9 & 45/22/9  & -  & 15/7/3 & 20/10/4 & 30/15/6 &\\
+
+%(((str . 7) (con . 5) (siz . 13) (int . 6) (pow . 6) (dex . 13)) ((Effort (35 17 7)) (Stamina (25 12 5)) (Damage Bonus -) (Idea (30 15 6)) (Luck (30 15 6)) (Agility (65 32 13))))
+\rowcolor{lightgray}
+7       & 5       & 13  & 6       & 6       & 13 &\\
+\rowcolor{lightgray}
+35/17/7 & 25/12/5 & -   & 30/15/6 & 30/15/6 & 65/32/13 &\\
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 2 (Fur)\\
+HP: 14\\
+Skills: Spot 60\% (30/12), Listen 30 \% (15/6), Grapple 60\% (30/12)\\
+Attacks: Bite/Maul 50\% (25/10); \textbf{1d6}
+\subsection*{Incinerator corpse}
+This is a corpse which can be re-animated, if one of the players has died, bring this character in, otherwise re-animate it as an NPC with the following stats:\\\\
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR & CON & SIZ & INT & POW & DEX & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+9       & 12       & 15 & 3      & 3      & 9       & \\
+45/22/9 & 60/30/12 & -  & 15/7/3 & 15/7/3 & 45/22/9 & \\ 
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 1 (Prison clothing)\\
+HP: 14\\
+Skills: Knife 25\% (12/5), Club 25\% (12/5), Grapple 50\% (25/10)\\ Brawl 40\% (20/8); \textbf{1d3}
+\newpage
+\subsection*{Super Zombies}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR      & CON       & SIZ & INT    & POW    & DEX       & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+
+12       & 13       & 14  & 1     & 1     & 8 &\\
+60/30/12 & 65/32/13 & -   & 5/2/1 & 5/2/1 & 40/20/8 &\\
+
+\rowcolor{lightgray}
+10       & 14       & 16 & 1     & 1     & 7 &\\
+\rowcolor{lightgray}
+50/25/10 & 70/35/14 & -  & 5/2/1 & 5/2/1 & 35/17/7 &\\
+
+9       & 12       & 16 & 1     & 1     & 6 & \\
+45/22/9 & 60/30/12 & -  & 5/2/1 & 5/2/1 & 30/15/6 &\\
+
+\rowcolor{lightgray}
+14       & 10       & 16  & 1     & 1     & 6 &\\
+\rowcolor{lightgray}
+70/35/14 & 50/25/10 & -   & 5/2/1 & 5/2/1 & 30/15/6 &\\
+
+\hline
+\end{tabular}
+\vspace{0.2cm}
+%perhaps 4 each side, 80\% chance of waking or something?
+\\
+AC: 1 (Clothing)\\
+HP: 14\\
+Skills: Spot 10\% (5/2), Listen 20\% (10/4)\\
+Attacks: Claw 40\% (20/8); \textbf{1d4},  Bite 40\% (20/8); \textbf{1d4}
+\subsection*{Herbert West}
+\begin{tabular}{| l | l | l | l | l | l |l|}
+\hline
+STR      & CON       & SIZ & INT    & POW    & DEX       & CUR HP\\
+(Effort) & (Stamina) & N/A & (Idea) & (Luck) & (Agility) & \\
+\hline
+9       & 10       & 9   & 15       & 9       & 6 &\\
+45/22/9 & 50/25/10 & -   & 75/37/15 & 45/22/9 & 30/15/6 &\\
+\hline
+\end{tabular}
+\vspace{0.2cm}
+\\
+AC: 4 (Enhanced Riot armour)\\
+HP: 12\\
+Skills: Spot 60\% (30/12), Listen 30 \% (15/6), Grapple 30\% (15/6)\\
+Throw 40\% (20/8), Handgun (.38) 40\% (20/8); \textbf{1d10}\\
+Knife 65\% (32/13); \textbf{1d3+1}
+%Attacks: Bite/Maul 50\% (25/10); \textbf{1d6}
+%Injects 4-6 zombies in front of him as party enters.
+\end{document}
